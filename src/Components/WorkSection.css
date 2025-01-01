@@ -1,0 +1,6 @@
+.work_section{
+    background-image: url("../assets/images/work.webp");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

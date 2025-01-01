@@ -68,7 +68,22 @@ button:focus-visible {
 } */
 
 
+body{
+  font-family: 'DM Sans';
+}
+*{
+  margin: 0;
+  padding: 0
+}
+
+p{
+  font-weight: 300
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
 

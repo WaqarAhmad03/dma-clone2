@@ -1,0 +1,31 @@
+.client_marquee{
+    display: flex;
+    gap: 10px;
+    width: calc(180px * 68);
+    padding: 20px;
+    animation: slider 60s linear infinite;
+}
+
+.client_marquee .client_marquee-img{
+    width: 180px !important;
+    /* height: 120px; */
+}
+.client_marquee .client_marquee-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 99px;
+}
+@keyframes slider {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-49.9%);
+    }
+}
+
+@media (max-width:425px){
+    .client_marquee{
+        width: calc(180px * 34);
+    }
+}
